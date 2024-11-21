@@ -3,51 +3,72 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="/Me.jpeg" href="/Me.jpeg" />
+  <link rel="icon" type="image/jpeg" href="/Me.jpeg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Justin Veltri - Software Engineer</title>
-  <link rel="stylesheet" href="App.css">
+  <link rel="stylesheet" href="/src/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-
-
+  
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 </head>
 
 <body>
-  <div id="root"></div>
-
-  <!-- <script type="module" src="/src/main.tsx"></script> // might delete idk what this does-->
-
-  <div class="topnav">
-    <a href="#" class="logo">myLogo</a>
+  <header class="topnav">
+    <a href="#" class="logo">
+      <img src="/logo.png" alt="Logo">
+    </a>
     <span class="separator">|</span>
-    <a href="#" class="menu">Menu</a>
-    <a href="#" class="split">Contact Me</a>
-  </div>
+    <a href="#menu" class="menu">Menu</a>
+    <a href="#contact" class="split">Contact Me</a>
+  </header>
 
-  <div class="landingSection">
-    <div class="linkedInPic"></div>
-    <div class="welcomeText">
-      <h2>Hey, I'm <br> <span class="blueBold">Justin Veltri</span>.</h2>
-    </div>
-    <div class="schoolText">
-      <h3>I'm currently an undergraduate student studying at <span class="monmouthBlue">Monmouth University</span> pursuing my B.S. in
-        Computer Science</h3>
-    </div>
-  </div>
+  <main>
+    <section class="landing-section">
+      <div class="linkedin-picture"></div>
+      <div class="welcome-text">
+        <h2>Hey, I'm <br> <span class="blue-text">Justin Veltri</span>.</h2>
+      </div>
+      <div class="school-text">
+        <h3>I'm an undergraduate student studying at <br><span class="blue-text">Monmouth University</span> pursuing my
+          B.S. in Computer Science</h3>
+      </div>
+    </section>
 
-  <div class="aboutMeSection">
+    <section class="projects-section">
+      <!-- Projects Content -->
+      <div class="timeline">
 
-  </div>
+        <div class="container left-container">
+          <img src="/small-logo.png" alt="">
+          <div class="text-box">
+            <h2>Personal Portfolio</h2>
+            <small>November 2024</small>
+            <p>This is example text that i need to remove and switch with some actual thing</p>
+            <span class="left-container-arrow"></span>
+          </div>
+        </div>
 
-  <div class="projectsSection">
-    <div class="projectsText">
+        <div class="container right-container">
+          <img src="/powerplay.png" alt="">
+          <div class="text-box">
+            <h2>FIRST Tech Challenge</h2>
+            <small>2022-2023</small>
+            <p>This is example text that i need to remove and switch with some actual thing</p>
+            <span class="right-container-arrow"></span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </div>
-  </div>
+    <section class="about-me-section">
+      <!-- About Me Content -->
+       <div class="text">yo</div>
+    </section>
 
-  <h1></h1>
+  </main>
 </body>
 
 </html>
